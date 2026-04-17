@@ -1,0 +1,5 @@
+module register64bit (q, d, reset, clk, enable);
+	output [63:0] q;
+	input [63:0] d; 
+	input reset, clk, enable;
+	wire [63:0] muxOutput; 
