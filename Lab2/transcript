@@ -1,0 +1,454 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:24 on Apr 17,2026
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 22:46:24 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:24 on Apr 17,2026
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 22:46:24 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:24 on Apr 17,2026
+# vlog -reportprogress 300 ./mux8_1.sv 
+# -- Compiling module mux8_1
+# -- Compiling module mux8_1_testbench
+# 
+# Top level modules:
+# 	mux8_1_testbench
+# End time: 22:46:24 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:24 on Apr 17,2026
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 22:46:25 on Apr 17,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:25 on Apr 17,2026
+# vlog -reportprogress 300 ./aluOneBitSlice.sv 
+# -- Compiling module aluOneBitSlice
+# 
+# Top level modules:
+# 	aluOneBitSlice
+# End time: 22:46:25 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:46:25 on Apr 17,2026
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 22:46:25 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work alustim 
+# Start time: 22:46:25 on Apr 17,2026
+# Loading sv_std.std
+# Loading work.alustim
+# Loading work.alu
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'alu' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /alustim/dut File: ./alu.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab.do PAUSED at line 18
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:22 on Apr 17,2026
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 22:47:22 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:22 on Apr 17,2026
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 22:47:22 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:22 on Apr 17,2026
+# vlog -reportprogress 300 ./mux8_1.sv 
+# -- Compiling module mux8_1
+# -- Compiling module mux8_1_testbench
+# 
+# Top level modules:
+# 	mux8_1_testbench
+# End time: 22:47:22 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:22 on Apr 17,2026
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 22:47:22 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:23 on Apr 17,2026
+# vlog -reportprogress 300 ./aluOneBitSlice.sv 
+# -- Compiling module aluOneBitSlice
+# 
+# Top level modules:
+# 	aluOneBitSlice
+# End time: 22:47:23 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:23 on Apr 17,2026
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 22:47:23 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work alustim 
+# Start time: 22:46:25 on Apr 17,2026
+# Loading sv_std.std
+# Loading work.alustim
+# Loading work.alu
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[0] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[1] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[2] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[3] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[4] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[5] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[6] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[7] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[8] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[9] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[10] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[11] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[12] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[13] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[14] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[15] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[16] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[17] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[18] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[19] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[20] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[21] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[22] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[23] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[24] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[25] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[26] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[27] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[28] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[29] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[30] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[31] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[32] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[33] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[34] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[35] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[36] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[37] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[38] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[39] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[40] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[41] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[42] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[43] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[44] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[45] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[46] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[47] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[48] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[49] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[50] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[51] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[52] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[53] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[54] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[55] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[56] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[57] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[58] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[59] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[60] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[61] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[62] File: ./alu.sv
+# ** Error: (vsim-3037) ./alu.sv(17): Missing instance name in instantiation of 'aluOneBitSlice'.
+#    Time: 0 ps  Iteration: 0  Region: /alustim/dut/genSlices[63] File: ./alu.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab.do PAUSED at line 18
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:06 on Apr 17,2026
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 22:48:06 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:07 on Apr 17,2026
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 22:48:07 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:07 on Apr 17,2026
+# vlog -reportprogress 300 ./mux8_1.sv 
+# -- Compiling module mux8_1
+# -- Compiling module mux8_1_testbench
+# 
+# Top level modules:
+# 	mux8_1_testbench
+# End time: 22:48:07 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:07 on Apr 17,2026
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 22:48:07 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:07 on Apr 17,2026
+# vlog -reportprogress 300 ./aluOneBitSlice.sv 
+# -- Compiling module aluOneBitSlice
+# 
+# Top level modules:
+# 	aluOneBitSlice
+# End time: 22:48:07 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:48:07 on Apr 17,2026
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 22:48:07 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work alustim 
+# Start time: 22:46:25 on Apr 17,2026
+# Loading sv_std.std
+# Loading work.alustim
+# Loading work.alu
+# Loading work.aluOneBitSlice
+# Loading work.mux8_1
+# Loading work.mux4_1
+# Loading work.mux2_1
+# ** Error: Cannot open macro file: alustim_wave.do
+# Error in macro ./runlab.do line 23
+# Cannot open macro file: alustim_wave.do
+#     while executing
+# "do alustim_wave.do"
+add wave -position insertpoint  \
+sim:/alustim/ALU_XOR
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: iimran  Hostname: ENGR-COEGPU-22  ProcessID: 14088
+#           Attempting to use alternate WLF file "./wlftxvhrti".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxvhrti
+add wave -position end  sim:/alustim/delay
+add wave -position end  sim:/alustim/ALU_PASS_B
+add wave -position end  sim:/alustim/ALU_ADD
+add wave -position end  sim:/alustim/ALU_SUBTRACT
+add wave -position end  sim:/alustim/ALU_AND
+add wave -position end  sim:/alustim/ALU_OR
+add wave -position end  sim:/alustim/ALU_XOR
+add wave -position end  sim:/alustim/A
+add wave -position end  sim:/alustim/B
+add wave -position end  sim:/alustim/cntrl
+add wave -position end  sim:/alustim/result
+add wave -position end  sim:/alustim/negative
+add wave -position end  sim:/alustim/zero
+add wave -position end  sim:/alustim/overflow
+add wave -position end  sim:/alustim/carry_out
+add wave -position end  sim:/alustim/i
+add wave -position end  sim:/alustim/test_val
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/EE469Labs/Lab2/alustim_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:16 on Apr 17,2026
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 22:49:16 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:16 on Apr 17,2026
+# vlog -reportprogress 300 ./mux4_1.sv 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# End time: 22:49:16 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:16 on Apr 17,2026
+# vlog -reportprogress 300 ./mux8_1.sv 
+# -- Compiling module mux8_1
+# -- Compiling module mux8_1_testbench
+# 
+# Top level modules:
+# 	mux8_1_testbench
+# End time: 22:49:16 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:16 on Apr 17,2026
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 22:49:16 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:16 on Apr 17,2026
+# vlog -reportprogress 300 ./aluOneBitSlice.sv 
+# -- Compiling module aluOneBitSlice
+# 
+# Top level modules:
+# 	aluOneBitSlice
+# End time: 22:49:16 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:17 on Apr 17,2026
+# vlog -reportprogress 300 ./alustim.sv 
+# -- Compiling module alustim
+# 
+# Top level modules:
+# 	alustim
+# End time: 22:49:17 on Apr 17,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:49:19 on Apr 17,2026, Elapsed time: 0:02:54
+# Errors: 68, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work alustim 
+# Start time: 22:49:19 on Apr 17,2026
+# Loading sv_std.std
+# Loading work.alustim
+# Loading work.alu
+# Loading work.aluOneBitSlice
+# Loading work.mux8_1
+# Loading work.mux4_1
+# Loading work.mux2_1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: iimran  Hostname: ENGR-COEGPU-22  ProcessID: 14088
+#           Attempting to use alternate WLF file "./wlfthtf5we".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthtf5we
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+#    0.00 ns testing PASS_A operations
+# 10000000.00 ns testing addition
+# 10100000.00 ns testing subtraction
+# 10200000.00 ns testing anding with all zeros
+# 10300000.00 ns testing oring all zeros with 64'hFFFFFFFFFFFFFFFF
+# 10400000.00 ns testing xoring a number with itself
+# 10500000.00 ns testing positive overflow with largest positive 64-bit 2's comp
+# 10600000.00 ns testing negative overflow with largest negative 64-bit 2's comp
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/EE469Labs/Lab2/alustim_wave.do
+# End time: 22:53:16 on Apr 17,2026, Elapsed time: 0:03:57
+# Errors: 0, Warnings: 2

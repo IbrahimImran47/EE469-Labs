@@ -1,0 +1,545 @@
+Analysis & Synthesis report for DE1_SoC
+Fri Apr 17 22:43:40 2026
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Port Connectivity Checks: "aluOneBitSlice:comb_4|mux8_1:m0"
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
+ 14. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Fri Apr 17 22:43:40 2026       ;
+; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
+; Revision Name                   ; DE1_SoC                                     ;
+; Top-level Entity Name           ; alu                                         ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 199                                         ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
+; Top-level entity name                                                           ; alu                ; DE1_SoC            ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; State Machine Processing                                                        ; User-Encoded       ; Auto               ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; OpenCore Plus hardware evaluation                                               ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; PowerPlay Power Optimization During Synthesis                                   ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 8           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                            ;
++----------------------------------+-----------------+------------------------------+-------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path        ; Library ;
++----------------------------------+-----------------+------------------------------+-------------------------------------+---------+
+; mux2_1.sv                        ; yes             ; User SystemVerilog HDL File  ; U:/EE469Labs/Lab2/mux2_1.sv         ;         ;
+; mux4_1.sv                        ; yes             ; User SystemVerilog HDL File  ; U:/EE469Labs/Lab2/mux4_1.sv         ;         ;
+; mux8_1.sv                        ; yes             ; User SystemVerilog HDL File  ; U:/EE469Labs/Lab2/mux8_1.sv         ;         ;
+; alu.sv                           ; yes             ; User SystemVerilog HDL File  ; U:/EE469Labs/Lab2/alu.sv            ;         ;
+; aluOneBitSlice.sv                ; yes             ; User SystemVerilog HDL File  ; U:/EE469Labs/Lab2/aluOneBitSlice.sv ;         ;
++----------------------------------+-----------------+------------------------------+-------------------------------------+---------+
+
+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimate of Logic utilization (ALMs needed) ; 166            ;
+;                                             ;                ;
+; Combinational ALUT usage for logic          ; 242            ;
+;     -- 7 input functions                    ; 0              ;
+;     -- 6 input functions                    ; 89             ;
+;     -- 5 input functions                    ; 25             ;
+;     -- 4 input functions                    ; 14             ;
+;     -- <=3 input functions                  ; 114            ;
+;                                             ;                ;
+; Dedicated logic registers                   ; 0              ;
+;                                             ;                ;
+; I/O pins                                    ; 199            ;
+;                                             ;                ;
+; Total DSP Blocks                            ; 0              ;
+;                                             ;                ;
+; Maximum fan-out node                        ; cntrl[0]~input ;
+; Maximum fan-out                             ; 138            ;
+; Total fan-out                               ; 1250           ;
+; Average fan-out                             ; 1.95           ;
++---------------------------------------------+----------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                   ;
++-----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------+----------------+--------------+
+; Compilation Hierarchy Node  ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                            ; Entity Name    ; Library Name ;
++-----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------+----------------+--------------+
+; |alu                        ; 242 (19)            ; 0 (0)                     ; 0                 ; 0          ; 199  ; 0            ; |alu                                           ; alu            ; work         ;
+;    |aluOneBitSlice:comb_10| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_10                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_10|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_10|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_11| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_11                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_11|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_11|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_12| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_12                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_12|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_12|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_13| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_13                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_13|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_13|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_14| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_14                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_14|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_14|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_15| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_15                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_15|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_15|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_16| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_16                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_16|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_16|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_17| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_17                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_17|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_17|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_18| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_18                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_18|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_18|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_19| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_19                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_19|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_19|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_20| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_20                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_20|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_20|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_21| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_21                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_21|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_21|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_22| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_22                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_22|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_22|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_23| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_23                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_23|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_23|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_24| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_24                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_24|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_24|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_25| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_25                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_25|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_25|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_26| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_26                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_26|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_26|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_27| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_27                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_27|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_27|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_28| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_28                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_28|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_28|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_29| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_29                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_29|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_29|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_30| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_30                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_30|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_30|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_31| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_31                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_31|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_31|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_32| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_32                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_32|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_32|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_33| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_33                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_33|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_33|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_34| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_34                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_34|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_34|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_35| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_35                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_35|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_35|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_36| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_36                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_36|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_36|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_37| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_37                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_37|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_37|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_38| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_38                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_38|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_38|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_39| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_39                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_39|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_39|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_40| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_40                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_40|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_40|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_41| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_41                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_41|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_41|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_42| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_42                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_42|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_42|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_43| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_43                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_43|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_43|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_44| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_44                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_44|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_44|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_45| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_45                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_45|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_45|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_46| ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_46                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_46|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_46|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_47| ; 5 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_47                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_47|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_47|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_48| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_48                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_48|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_48|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_49| ; 4 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_49                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_49|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_49|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_4|  ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_4                     ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_4|mux8_1:m0           ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_4|mux8_1:m0|mux2_1:m  ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_50| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_50                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_50|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_50|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_51| ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_51                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_51|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_51|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_52| ; 5 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_52                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_52|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_52|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_53| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_53                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_53|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_53|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_54| ; 4 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_54                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_54|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_54|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_55| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_55                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_55|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_55|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_56| ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_56                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_56|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_56|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_57| ; 5 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_57                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_57|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_57|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_58| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_58                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_58|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_58|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_59| ; 4 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_59                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_59|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_59|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_5|  ; 3 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_5                     ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_5|mux8_1:m0           ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_5|mux8_1:m0|mux2_1:m  ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_60| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_60                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_60|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_60|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_61| ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_61                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_61|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_61|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_62| ; 5 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_62                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_62|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_62|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_63| ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_63                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_63|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_63|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_64| ; 4 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_64                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_64|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_64|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_65| ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_65                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_65|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_65|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_66| ; 2 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_66                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_66|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_66|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_67| ; 4 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_67                    ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_67|mux8_1:m0          ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_67|mux8_1:m0|mux2_1:m ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_6|  ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_6                     ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_6|mux8_1:m0           ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_6|mux8_1:m0|mux2_1:m  ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_7|  ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_7                     ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_7|mux8_1:m0           ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_7|mux8_1:m0|mux2_1:m  ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_8|  ; 5 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_8                     ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_8|mux8_1:m0           ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_8|mux8_1:m0|mux2_1:m  ; mux2_1         ; work         ;
+;    |aluOneBitSlice:comb_9|  ; 3 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_9                     ; aluOneBitSlice ; work         ;
+;       |mux8_1:m0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_9|mux8_1:m0           ; mux8_1         ; work         ;
+;          |mux2_1:m|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu|aluOneBitSlice:comb_9|mux8_1:m0|mux2_1:m  ; mux2_1         ; work         ;
++-----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------+----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
+; 5:1                ; 64 bits   ; 192 LEs       ; 192 LEs              ; 0 LEs                  ; No         ; |alu|aluOneBitSlice:comb_4|mux8_1:m0|mux2_1:m|out ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "aluOneBitSlice:comb_4|mux8_1:m0" ;
++------+-------+----------+-----------------------------------+
+; Port ; Type  ; Severity ; Details                           ;
++------+-------+----------+-----------------------------------+
+; i[7] ; Input ; Info     ; Stuck at GND                      ;
+; i[1] ; Input ; Info     ; Stuck at GND                      ;
++------+-------+----------+-----------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_lcell_comb     ; 243                         ;
+;     normal            ; 243                         ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 74                          ;
+;         3 data inputs ; 40                          ;
+;         4 data inputs ; 14                          ;
+;         5 data inputs ; 25                          ;
+;         6 data inputs ; 89                          ;
+; boundary_port         ; 199                         ;
+;                       ;                             ;
+; Max LUT depth         ; 28.00                       ;
+; Average LUT depth     ; 19.67                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+    Info: Processing started: Fri Apr 17 22:43:30 2026
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE1_SoC -c DE1_SoC
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file alustim.sv
+    Info (12023): Found entity 1: alustim File: U:/EE469Labs/Lab2/alustim.sv Line: 20
+Info (12021): Found 1 design units, including 1 entities, in source file d_ff.sv
+    Info (12023): Found entity 1: D_FF File: U:/EE469Labs/Lab2/D_FF.sv Line: 3
+Info (12021): Found 2 design units, including 2 entities, in source file mux2_1.sv
+    Info (12023): Found entity 1: mux2_1 File: U:/EE469Labs/Lab2/mux2_1.sv Line: 3
+    Info (12023): Found entity 2: mux2_1_testbench File: U:/EE469Labs/Lab2/mux2_1.sv Line: 15
+Info (12021): Found 2 design units, including 2 entities, in source file mux4_1.sv
+    Info (12023): Found entity 1: mux4_1 File: U:/EE469Labs/Lab2/mux4_1.sv Line: 3
+    Info (12023): Found entity 2: mux4_1_testbench File: U:/EE469Labs/Lab2/mux4_1.sv Line: 17
+Info (12021): Found 2 design units, including 2 entities, in source file mux8_1.sv
+    Info (12023): Found entity 1: mux8_1 File: U:/EE469Labs/Lab2/mux8_1.sv Line: 3
+    Info (12023): Found entity 2: mux8_1_testbench File: U:/EE469Labs/Lab2/mux8_1.sv Line: 19
+Info (12021): Found 2 design units, including 2 entities, in source file mux16_1.sv
+    Info (12023): Found entity 1: mux16_1 File: U:/EE469Labs/Lab2/mux16_1.sv Line: 3
+    Info (12023): Found entity 2: mux16_1_testbench File: U:/EE469Labs/Lab2/mux16_1.sv Line: 19
+Info (12021): Found 2 design units, including 2 entities, in source file mux32_1.sv
+    Info (12023): Found entity 1: mux32_1 File: U:/EE469Labs/Lab2/mux32_1.sv Line: 3
+    Info (12023): Found entity 2: mux32_1_testbench File: U:/EE469Labs/Lab2/mux32_1.sv Line: 19
+Info (12021): Found 5 design units, including 5 entities, in source file decoder.sv
+    Info (12023): Found entity 1: decoder1_2 File: U:/EE469Labs/Lab2/Decoder.sv Line: 2
+    Info (12023): Found entity 2: decoder2_4 File: U:/EE469Labs/Lab2/Decoder.sv Line: 14
+    Info (12023): Found entity 3: decoder3_8 File: U:/EE469Labs/Lab2/Decoder.sv Line: 28
+    Info (12023): Found entity 4: decoder4_16 File: U:/EE469Labs/Lab2/Decoder.sv Line: 42
+    Info (12023): Found entity 5: decoder5_32 File: U:/EE469Labs/Lab2/Decoder.sv Line: 54
+Info (12021): Found 1 design units, including 1 entities, in source file register64bit.sv
+    Info (12023): Found entity 1: register64bit File: U:/EE469Labs/Lab2/register64bit.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file regfile.sv
+    Info (12023): Found entity 1: regfile File: U:/EE469Labs/Lab2/regfile.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file alu.sv
+    Info (12023): Found entity 1: alu File: U:/EE469Labs/Lab2/alu.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file aluonebitslice.sv
+    Info (12023): Found entity 1: aluOneBitSlice File: U:/EE469Labs/Lab2/aluOneBitSlice.sv Line: 1
+Critical Warning (10846): Verilog HDL Instantiation warning at alu.sv(16): instance has no name File: U:/EE469Labs/Lab2/alu.sv Line: 16
+Info (12127): Elaborating entity "alu" for the top level hierarchy
+Info (12128): Elaborating entity "aluOneBitSlice" for hierarchy "aluOneBitSlice:comb_4" File: U:/EE469Labs/Lab2/alu.sv Line: 16
+Info (12128): Elaborating entity "mux8_1" for hierarchy "aluOneBitSlice:comb_4|mux8_1:m0" File: U:/EE469Labs/Lab2/aluOneBitSlice.sv Line: 32
+Info (12128): Elaborating entity "mux4_1" for hierarchy "aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m0" File: U:/EE469Labs/Lab2/mux8_1.sv Line: 12
+Info (12128): Elaborating entity "mux2_1" for hierarchy "aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m0|mux2_1:m0" File: U:/EE469Labs/Lab2/mux4_1.sv Line: 10
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file U:/EE469Labs/Lab2/output_files/DE1_SoC.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 441 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 131 input pins
+    Info (21059): Implemented 68 output pins
+    Info (21061): Implemented 242 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4868 megabytes
+    Info: Processing ended: Fri Apr 17 22:43:40 2026
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:18
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in U:/EE469Labs/Lab2/output_files/DE1_SoC.map.smsg.
+
+
