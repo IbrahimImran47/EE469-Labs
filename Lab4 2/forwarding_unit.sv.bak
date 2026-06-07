@@ -1,0 +1,60 @@
+`timescale 1ps/1ps
+module forwarding_unit(ID_EX_Rn, ID_EX_Rd, ID_EX_Rm, EX_MEM_WritReg, EX_MEM_RWrite, MEM_WB_WriteReg, MEM_WB_RWrite, ForwardA, ForwardB, ForwardRd);
+	input logic [4:0] ID_EX_Rn 
+	input logic [4:0] ID_EX_Rm 
+	input logic [4:0] ID_EX_Rd 
+	input logic [4:0] EX_MEM_WriteReg
+	input logic [4:0] MEM_WB_WriteReg;
+	input logic EX_MEM_RWrite;
+	input logic MEM_WB_RWrite;
+	output logic [1:0] ForwardA;
+	output logic [1:0] ForwardB;
+	output logic [1:0] ForwardRd;
+	
+	
+	// Logic for forwarding unit. Check to see if any instruction ahead of "us" is writing to register that we currently need
+	// If so, grab that value instead of waiting for the WB
+	// NOTE! EX_MEM takes priority over MEM_WB due to its being first
+	
+	
+	always_comb begin
+	// this is for ForwardA (Alu input one from Rn)
+	// priority check for Ex/mem
+	if (EX_MEM_RWrite && EX_MEM_WriteReg != 5'd31 && EX_MEM_WriteReg == ID_EX_Rn) begin
+		ForwardA = 2'b10; // get EX_MEM alu result;
+		end
+	else if(MEM_WB_RWrite && MEM_WB_WriteReg != 5'd31 && MEM_WB_WriteReg == ID_EX_Rn) begin
+		ForwardA = 2'b01; // get MEM/WB writeback
+	end
+	else begin 
+		ForwardA = 2'b00 // using reg file
+	end
+	
+	// this is for ForwardB (Alu input two from Rm)
+
+	if (EX_MEM_RWrite && EX_MEM_WriteReg != 5'd31 && EX_MEM_WriteReg == ID_EX_Rm) begin
+		ForwardB = 2'b10; 
+		end
+	else if(MEM_WB_RWrite && MEM_WB_WriteReg != 5'd31 && MEM_WB_WriteReg == ID_EX_Rm) begin
+		ForwardB = 2'b01; 
+	end
+	else begin 
+		ForwardB = 2'b00 
+	end
+	
+	// Forward Register D (for STUR & CBZ which Rm)
+	// STUR needs value being stored to be forwarded
+	// CBZ needs value to check against zero
+	if(EX_MEM_RWrite && EX_MEM_WriteReg != 5'd31 && EX_MEM_WriteReg == ID_EX_Rd) begin
+		ForwardRd = 2'b10;
+	end
+	else if (MEM_WB_RWrite && MEM_WB_writeReg != 5'd31 && MEM_WB_WriteReg == ID_EX_Rd) begin
+		ForwardRd = 2'b01
+	end
+	else begin
+		ForwardRd = 2'b00;
+	end
+end
+
+endmodule
+	

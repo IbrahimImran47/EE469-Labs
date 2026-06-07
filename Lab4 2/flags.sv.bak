@@ -1,0 +1,25 @@
+`timescale 1ps/1ps
+
+
+module flags(clk, reset, FWrite, Nin, Vin, Zin, Cin, N, V, Z, C);
+	input logic clk, reset, FWrite, Nin, Vin, Zin, Cin;
+	output logic N, V, Z, C;
+
+	
+	
+	always_ff @(posedge clk) begin
+	if(reset) begin
+	
+	N <= 1'b0;
+	V <= 1'b0;
+	C <= 1'b0;
+	Z <= 1'b0;
+	end
+	else if (FWrite) begin
+	N <= Nin;
+	V <= Vin;
+	C <= Cin;
+	Z <= Zin;
+	end
+	end
+endmodule

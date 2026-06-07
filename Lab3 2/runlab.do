@@ -1,0 +1,48 @@
+# Create work library
+vlib work
+
+# Compile Verilog
+#     All Verilog files that are part of this design should have
+#     their own "vlog" line below.
+vlog "./D_FF.sv"
+vlog "./Decoder.sv"
+vlog "./ProgramCounter.sv"
+vlog "./alu.sv"
+vlog "./aluOneBitSlice.sv"
+vlog "./branch.sv"
+vlog "./control.sv"
+vlog "./cpu.sv"
+vlog "./cpustim.sv"
+vlog "./datamem.sv"
+vlog "./extend.sv"
+vlog "./flags.sv"
+vlog "./instructmem.sv"
+vlog "./math.sv"
+vlog "./mux2_1.sv"
+vlog "./mux4_1.sv"
+vlog "./mux8_1.sv"
+vlog "./mux16_1.sv"
+vlog "./mux32_1.sv"
+vlog "./regfile.sv"
+vlog "./register64bit.sv"
+
+
+# Call vsim to invoke simulator
+#     Make sure the last item on the line is the name of the
+#     testbench module you want to execute.
+vsim -voptargs="+acc" -t 1ps -lib work cpustim
+
+# Source the wave do file
+#     This should be the file that sets up the signal window for
+#     the module you are testing.
+do cpustim_wave.do
+
+# Set the window types
+view wave
+view structure
+view signals
+
+# Run the simulation
+run -all
+
+# End

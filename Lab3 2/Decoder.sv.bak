@@ -1,0 +1,24 @@
+module decoder2_1(out, a, enable);
+	
+	output [1:0] out;
+	input logic a, enable;
+	
+	wire nota;
+	
+	not #50 (nota, a);
+	and #50 (out[0], nota, enable)
+	and #50 (out[1], a, enable)
+endmodule;
+
+module decoder2_2(out, a, enable);
+	
+	output [1:0] out;
+	input logic a, enable;
+	
+	wire nota;
+	
+	not #50 (nota, a);
+	and #50 (out[0], nota, enable)
+	and #50 (out[1], a, enable)
+endmodule;
+

@@ -1,0 +1,21 @@
+`timescale 1ps/1ps
+module cpustim();
+	logic clk, reset;
+	
+	cpu dut (.clk(clk), .reset(reset);
+	
+
+	
+	inital begin
+	clk <= 0;
+	forever #(50000/2) clk <= ~clk;
+	end
+	
+	inital begin
+	reset <=1;
+	@(posedge clk);
+	@(negedge clk);
+	reset <= 0;
+	repeat (1000) @ (posedge clk);
+	end
+end module;

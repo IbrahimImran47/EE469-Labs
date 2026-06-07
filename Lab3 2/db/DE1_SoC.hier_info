@@ -1,0 +1,7178 @@
+|alu
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+A[16] => A[16].IN1
+A[17] => A[17].IN1
+A[18] => A[18].IN1
+A[19] => A[19].IN1
+A[20] => A[20].IN1
+A[21] => A[21].IN1
+A[22] => A[22].IN1
+A[23] => A[23].IN1
+A[24] => A[24].IN1
+A[25] => A[25].IN1
+A[26] => A[26].IN1
+A[27] => A[27].IN1
+A[28] => A[28].IN1
+A[29] => A[29].IN1
+A[30] => A[30].IN1
+A[31] => A[31].IN1
+A[32] => A[32].IN1
+A[33] => A[33].IN1
+A[34] => A[34].IN1
+A[35] => A[35].IN1
+A[36] => A[36].IN1
+A[37] => A[37].IN1
+A[38] => A[38].IN1
+A[39] => A[39].IN1
+A[40] => A[40].IN1
+A[41] => A[41].IN1
+A[42] => A[42].IN1
+A[43] => A[43].IN1
+A[44] => A[44].IN1
+A[45] => A[45].IN1
+A[46] => A[46].IN1
+A[47] => A[47].IN1
+A[48] => A[48].IN1
+A[49] => A[49].IN1
+A[50] => A[50].IN1
+A[51] => A[51].IN1
+A[52] => A[52].IN1
+A[53] => A[53].IN1
+A[54] => A[54].IN1
+A[55] => A[55].IN1
+A[56] => A[56].IN1
+A[57] => A[57].IN1
+A[58] => A[58].IN1
+A[59] => A[59].IN1
+A[60] => A[60].IN1
+A[61] => A[61].IN1
+A[62] => A[62].IN1
+A[63] => A[63].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+B[16] => B[16].IN1
+B[17] => B[17].IN1
+B[18] => B[18].IN1
+B[19] => B[19].IN1
+B[20] => B[20].IN1
+B[21] => B[21].IN1
+B[22] => B[22].IN1
+B[23] => B[23].IN1
+B[24] => B[24].IN1
+B[25] => B[25].IN1
+B[26] => B[26].IN1
+B[27] => B[27].IN1
+B[28] => B[28].IN1
+B[29] => B[29].IN1
+B[30] => B[30].IN1
+B[31] => B[31].IN1
+B[32] => B[32].IN1
+B[33] => B[33].IN1
+B[34] => B[34].IN1
+B[35] => B[35].IN1
+B[36] => B[36].IN1
+B[37] => B[37].IN1
+B[38] => B[38].IN1
+B[39] => B[39].IN1
+B[40] => B[40].IN1
+B[41] => B[41].IN1
+B[42] => B[42].IN1
+B[43] => B[43].IN1
+B[44] => B[44].IN1
+B[45] => B[45].IN1
+B[46] => B[46].IN1
+B[47] => B[47].IN1
+B[48] => B[48].IN1
+B[49] => B[49].IN1
+B[50] => B[50].IN1
+B[51] => B[51].IN1
+B[52] => B[52].IN1
+B[53] => B[53].IN1
+B[54] => B[54].IN1
+B[55] => B[55].IN1
+B[56] => B[56].IN1
+B[57] => B[57].IN1
+B[58] => B[58].IN1
+B[59] => B[59].IN1
+B[60] => B[60].IN1
+B[61] => B[61].IN1
+B[62] => B[62].IN1
+B[63] => B[63].IN1
+cntrl[0] => cntrl[0].IN65
+cntrl[1] => cntrl[1].IN64
+cntrl[2] => cntrl[2].IN64
+result[0] << aluOneBitSlice:comb_4.result
+result[1] << aluOneBitSlice:comb_5.result
+result[2] << aluOneBitSlice:comb_6.result
+result[3] << aluOneBitSlice:comb_7.result
+result[4] << aluOneBitSlice:comb_8.result
+result[5] << aluOneBitSlice:comb_9.result
+result[6] << aluOneBitSlice:comb_10.result
+result[7] << aluOneBitSlice:comb_11.result
+result[8] << aluOneBitSlice:comb_12.result
+result[9] << aluOneBitSlice:comb_13.result
+result[10] << aluOneBitSlice:comb_14.result
+result[11] << aluOneBitSlice:comb_15.result
+result[12] << aluOneBitSlice:comb_16.result
+result[13] << aluOneBitSlice:comb_17.result
+result[14] << aluOneBitSlice:comb_18.result
+result[15] << aluOneBitSlice:comb_19.result
+result[16] << aluOneBitSlice:comb_20.result
+result[17] << aluOneBitSlice:comb_21.result
+result[18] << aluOneBitSlice:comb_22.result
+result[19] << aluOneBitSlice:comb_23.result
+result[20] << aluOneBitSlice:comb_24.result
+result[21] << aluOneBitSlice:comb_25.result
+result[22] << aluOneBitSlice:comb_26.result
+result[23] << aluOneBitSlice:comb_27.result
+result[24] << aluOneBitSlice:comb_28.result
+result[25] << aluOneBitSlice:comb_29.result
+result[26] << aluOneBitSlice:comb_30.result
+result[27] << aluOneBitSlice:comb_31.result
+result[28] << aluOneBitSlice:comb_32.result
+result[29] << aluOneBitSlice:comb_33.result
+result[30] << aluOneBitSlice:comb_34.result
+result[31] << aluOneBitSlice:comb_35.result
+result[32] << aluOneBitSlice:comb_36.result
+result[33] << aluOneBitSlice:comb_37.result
+result[34] << aluOneBitSlice:comb_38.result
+result[35] << aluOneBitSlice:comb_39.result
+result[36] << aluOneBitSlice:comb_40.result
+result[37] << aluOneBitSlice:comb_41.result
+result[38] << aluOneBitSlice:comb_42.result
+result[39] << aluOneBitSlice:comb_43.result
+result[40] << aluOneBitSlice:comb_44.result
+result[41] << aluOneBitSlice:comb_45.result
+result[42] << aluOneBitSlice:comb_46.result
+result[43] << aluOneBitSlice:comb_47.result
+result[44] << aluOneBitSlice:comb_48.result
+result[45] << aluOneBitSlice:comb_49.result
+result[46] << aluOneBitSlice:comb_50.result
+result[47] << aluOneBitSlice:comb_51.result
+result[48] << aluOneBitSlice:comb_52.result
+result[49] << aluOneBitSlice:comb_53.result
+result[50] << aluOneBitSlice:comb_54.result
+result[51] << aluOneBitSlice:comb_55.result
+result[52] << aluOneBitSlice:comb_56.result
+result[53] << aluOneBitSlice:comb_57.result
+result[54] << aluOneBitSlice:comb_58.result
+result[55] << aluOneBitSlice:comb_59.result
+result[56] << aluOneBitSlice:comb_60.result
+result[57] << aluOneBitSlice:comb_61.result
+result[58] << aluOneBitSlice:comb_62.result
+result[59] << aluOneBitSlice:comb_63.result
+result[60] << aluOneBitSlice:comb_64.result
+result[61] << aluOneBitSlice:comb_65.result
+result[62] << aluOneBitSlice:comb_66.result
+result[63] << aluOneBitSlice:comb_67.result
+negative << aluOneBitSlice:comb_67.result
+overflow << comb.DB_MAX_OUTPUT_PORT_TYPE
+carry_out << aluOneBitSlice:comb_67.carry_out
+zero << or3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_4
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_4|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_5
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_5|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_6
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_6|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_7
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_7|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_8
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_8|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_9
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_9|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_10
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_10|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_11
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_11|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_12
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_12|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_13
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_13|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_14
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_14|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_15
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_15|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_16
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_16|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_17
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_17|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_18
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_18|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_19
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_19|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_20
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_20|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_21
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_21|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_22
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_22|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_23
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_23|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_24
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_24|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_25
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_25|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_26
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_26|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_27
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_27|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_28
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_28|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_29
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_29|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_30
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_30|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_31
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_31|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_32
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_32|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_33
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_33|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_34
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_34|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_35
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_35|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_36
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_36|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_37
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_37|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_38
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_38|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_39
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_39|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_40
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_40|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_41
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_41|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_42
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_42|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_43
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_43|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_44
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_44|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_45
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_45|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_46
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_46|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_47
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_47|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_48
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_48|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_49
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_49|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_50
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_50|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_51
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_51|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_52
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_52|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_53
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_53|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_54
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_54|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_55
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_55|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_56
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_56|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_57
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_57|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_58
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_58|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_59
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_59|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_60
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_60|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_61
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_61|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_62
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_62|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_63
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_63|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_64
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_64|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_65
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_65|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_66
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_66|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_67
+A => comb.IN0
+A => comb.IN0
+A => comb.IN0
+A => halfsum.IN1
+A => and1.IN1
+A => and3.IN0
+B => muxInputs[0].IN1
+cntrl[0] => cntrl[0].IN1
+cntrl[1] => cntrl[1].IN1
+cntrl[2] => cntrl[2].IN1
+result <= mux8_1:m0.out
+carry_out <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+carry_in => comb.IN1
+carry_in => and2.IN1
+carry_in => and3.IN1
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => sel[2].IN1
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0|mux4_1:m0
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0|mux4_1:m0|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0|mux4_1:m0|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0|mux4_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0|mux4_1:m1
+out <= mux2_1:m.out
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0|mux4_1:m1|mux2_1:m0
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0|mux4_1:m1|mux2_1:m1
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0|mux4_1:m1|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|aluOneBitSlice:comb_67|mux8_1:m0|mux2_1:m
+a => x.IN0
+b => y.IN0
+sel => y.IN1
+sel => x.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

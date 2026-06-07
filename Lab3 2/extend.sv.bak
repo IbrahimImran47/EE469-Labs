@@ -1,0 +1,19 @@
+`timescale 1ps/1ps
+
+module extend(ins, iSel, extended);
+	input logic [31:0] ins;
+	input logic [1:0] iSel;
+	output logic [63:0] extended;
+	
+	always_comb begin
+	if (iSel == 2'b00)
+		extended = {{55{ins[20]}}, ins[20:12]};
+		
+	else if (iSel == 2'b01)
+		extended = {52'b0, ins[21:10]};
+	
+	else
+		extended = 64'b0;
+	end
+endmodule
+			

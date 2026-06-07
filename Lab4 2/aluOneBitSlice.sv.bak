@@ -1,0 +1,1 @@
+module aluOneBitSlice (A, B, cntrl, result, negative, overflow, carry_out, zero);
